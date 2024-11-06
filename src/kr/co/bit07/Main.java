@@ -1,6 +1,6 @@
 package kr.co.bit07;
 
-import com.sun.security.jgss.GSSUtil;
+
 
 import java.util.Scanner;
 
