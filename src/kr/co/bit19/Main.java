@@ -2,7 +2,7 @@ package kr.co.bit19;
 
 import java.util.Scanner;
 
-//예외 처리
+//예외 처리01
 class Num extends Exception{
     Num(){
         super("잘못된 값!!!");    //부모생성자 호출 Exception
