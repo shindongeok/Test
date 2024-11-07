@@ -16,7 +16,7 @@ public class Main {
 
         if(n<0){//음수면
             Num num=new Num();
-            throw num;
+            throw num;  // 예외 발생시키기
         }
         return n;
     }
