@@ -2,7 +2,7 @@ package kr.co.bit16;
 
 interface Re{
 
-    default public void show(){
+    default  void show(){
         System.out.println("사각형 출력!!");
     }
     abstract int area();
