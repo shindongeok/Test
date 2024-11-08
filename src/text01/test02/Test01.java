@@ -1,4 +1,4 @@
-package text01;
+package text01.test02;
 
 class Person{
 
