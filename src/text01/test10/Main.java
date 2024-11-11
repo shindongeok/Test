@@ -7,11 +7,10 @@ public class Main {
         //1.2 문자열 “36.5”를 double 타입 실수로 변환해라.
         //1.3 문자열 “35”를 정수 35로 변환해라.
 
-       /* System.out.println(String.valueOf("false"));
+        System.out.println(String.valueOf(false));
         System.out.println(Double.parseDouble("36.5"));
-        System.out.println(Integer.parseInt("35"));*/
+        System.out.println(Integer.parseInt("35"));
 
-        System.out.println(String.valueOf("false"));
     }
 
 
