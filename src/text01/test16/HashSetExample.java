@@ -19,6 +19,7 @@ public class HashSetExample {
         int size = set.size();
         System.out.println("총 객체 수 : " + size);
 
+        System.out.println();
 
 
 
