@@ -25,6 +25,7 @@ public class Main {
         Th t = new Th("스레드1");  //스레드 객체 생성
         Thread thread=new Thread(t);
         thread.start();  //public void run 실행됨.
+        // 스레드 시작 -> run 실행 -> jvm에 의해 스케쥴링 되기 시작함
 //        Runnable task=new th("스레드1");
 //        Thread thread=new Thread(task);
 
