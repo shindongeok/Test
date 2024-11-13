@@ -41,6 +41,8 @@ public class Main {
         a.start();
         b.start();
 
+
+
         try {
             a.join();   //main스레드가 기다리도록 한다.
             b.join();
