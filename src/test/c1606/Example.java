@@ -3,7 +3,6 @@ package test.c1606;
 
 @FunctionalInterface
 interface Function{
-
     double apply(double x, double y);
 }
 public class Example {

@@ -37,9 +37,9 @@ public class Example {
     public static double avg(Function<Student> fun){
         double sum =0;
         for(Student student :  students){
+            System.out.println();
+            System.out.println(  fun.apply(student));
             sum +=fun.apply(student);
-
-
         }
         System.out.println(sum);
         return sum/students.length;
@@ -47,7 +47,7 @@ public class Example {
     public static void main(String[] args) {
 
 
-        double englishAvg = avg(s -> s.getEnglishScore());
+        double englishAvg = avg(Student::getEnglishScore);
         System.out.println("영어 평균 점수 : "+ englishAvg);
 
         double MathScore = avg(s -> s.getMathScore());
